@@ -1,0 +1,135 @@
+body {
+    background-color: #FEFEE3;
+    font-family: "PT Sans", sans-serif;
+}
+
+.main-heading {
+    width: 100%;
+    text-align: center;
+    background-color: #0000;
+    padding: 20px 0; 
+    margin: 0; 
+    font-size: 45px; 
+}
+
+h1 {
+    font-size: 25px;
+    margin:20px;
+}
+
+p {
+    margin: 20px; 
+
+}
+
+body {
+    width: 1410px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-rows: 5% 16% 16% 16% 16% 16% 16%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+        "main-heading main-heading"
+        "sec1 sec2"
+        "sec3 sec4"
+        "sec5 sec6" 
+        "sec7 sec8"
+        "sec9 sec10"
+        "sec11 sec12";
+}
+
+section:nth-of-type(1) {
+    grid-area: sec1; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#FFC9B9;
+    border-radius: 20px;
+}
+
+section:nth-of-type(2) {
+    grid-area: sec2; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#D68C45;
+    border-radius: 20px;
+}
+
+section:nth-of-type(3) {
+    grid-area: sec3; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#D68C45;
+    border-radius: 20px;
+}
+
+section:nth-of-type(4) {
+    grid-area: sec4; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#FFC9B9;
+    border-radius: 20px;
+}
+
+section:nth-of-type(5) {
+    grid-area: sec5; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#FFC9B9;
+    border-radius: 20px;
+}
+
+section:nth-of-type(6) {
+    grid-area: sec6; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#D68C45;
+    border-radius: 20px;
+}
+
+section:nth-of-type(7) {
+    grid-area: sec7; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#D68C45;
+    border-radius: 20px;
+}
+
+section:nth-of-type(8) {
+    grid-area: sec8; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#FFC9B9;
+    border-radius: 20px;
+}
+
+section:nth-of-type(9) {
+    grid-area: sec9; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#FFC9B9;
+    border-radius: 20px;
+}
+
+section:nth-of-type(10) {
+    grid-area: sec10; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#D68C45;
+    border-radius: 20px;
+}
+
+section:nth-of-type(11) {
+    grid-area: sec11; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#D68C45;
+    border-radius: 20px;
+}
+
+section:nth-of-type(12) {
+    grid-area: sec12; 
+    min-height: 150px;
+    padding: 20px;
+    background-color:#FFC9B9;
+    border-radius: 20px;
+}
